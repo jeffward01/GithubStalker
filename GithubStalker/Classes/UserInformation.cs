@@ -22,5 +22,7 @@ namespace GithubStalker.Classes
         public string Following { get; set; }
         public string public_repos { get; set; }
 
+
+       
     }
 }
