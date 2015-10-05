@@ -1,1 +1,12 @@
 c:\users\jward01\Documents\Visual Studio 2015\Projects\GithubStalker\GithubStalker\bin\Debug\GithubStalker.exe.config
+c:\users\jward01\Documents\Visual Studio 2015\Projects\GithubStalker\GithubStalker\obj\Debug\GithubStalker.csprojResolveAssemblyReference.cache
+c:\users\jward01\Documents\Visual Studio 2015\Projects\GithubStalker\GithubStalker\bin\Debug\GithubStalker.exe
+c:\users\jward01\Documents\Visual Studio 2015\Projects\GithubStalker\GithubStalker\bin\Debug\GithubStalker.pdb
+c:\users\jward01\Documents\Visual Studio 2015\Projects\GithubStalker\GithubStalker\bin\Debug\GithubSharp.Core.dll
+c:\users\jward01\Documents\Visual Studio 2015\Projects\GithubStalker\GithubStalker\bin\Debug\GithubSharp.Plugins.CacheProviders.ApplicationCacher.dll
+c:\users\jward01\Documents\Visual Studio 2015\Projects\GithubStalker\GithubStalker\bin\Debug\GithubSharp.Plugins.CacheProviders.WebCache.dll
+c:\users\jward01\Documents\Visual Studio 2015\Projects\GithubStalker\GithubStalker\bin\Debug\GithubSharp.Plugins.LogProviders.SimpleLogProvider.dll
+c:\users\jward01\Documents\Visual Studio 2015\Projects\GithubStalker\GithubStalker\bin\Debug\Newtonsoft.Json.dll
+c:\users\jward01\Documents\Visual Studio 2015\Projects\GithubStalker\GithubStalker\bin\Debug\Newtonsoft.Json.xml
+c:\users\jward01\Documents\Visual Studio 2015\Projects\GithubStalker\GithubStalker\obj\Debug\GithubStalker.exe
+c:\users\jward01\Documents\Visual Studio 2015\Projects\GithubStalker\GithubStalker\obj\Debug\GithubStalker.pdb
