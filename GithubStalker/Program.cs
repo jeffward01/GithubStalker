@@ -27,9 +27,16 @@ namespace GithubStalker
         public static string myFollowing;
         public static string myRepoCount;
 
+        //user Commit Information
+        public static string commitUserName;
+        public static string commitEmail;
+
+        //user author information
+        public static string AuthorInfo;
+
         
 
-        static void Main(string[] args)
+         static void Main(string[] args)
         {
             
                 SearchParameter = IntroPrompt();
@@ -221,16 +228,29 @@ namespace GithubStalker
 
                 //Convert JSON to user-able variables
                 //
-                //Grab UserInformation from JSON Github (user info) 
-                List<CommitInformation> SecondInfo = new List<CommitInformation>();
-                SecondInfo = JsonConvert.DeserializeObject<List<CommitInformation>>(repoinfo);
 
 
-                //Iterate over the List and populating properties (Statgazer_Count, RepoName, watcher_count)
-                foreach (var item in SecondInfo)
+           
+                //Grabusername and Email from commit
+                List<Commit> myCommitInfor = new List<Commit>();
+                myCommitInfor = JsonConvert.DeserializeObject<List<Commit>>(repoinfo);
+
+                
+
+                foreach (var item in myCommitInfor)
                 {
-                    Console.WriteLine("Sha Name: {1} \n  Name: {0}  \n  Email: {2} \n  Message: {3} \n  \n -------- \n ", item.name, item.sha,
-                   item.email, item.message);
+                    AuthorInfo = item.author.name;
+                    Console.WriteLine(" Url: {0} \n  Item.Author.Name = {1} ------ \n ", item.url, AuthorInfo);
+                }
+                
+
+
+                List<Author> myDeserializedObjList = new List<Author>();
+                myDeserializedObjList = (List<Author>)Newtonsoft.Json.JsonConvert.DeserializeObject(repoinfo, typeof(List<Author>));
+
+                foreach (var item in myDeserializedObjList)
+                {
+                 //   Console.WriteLine("myAuthor is: {0}", myDeserializedObjList.name);
                 }
             }
 

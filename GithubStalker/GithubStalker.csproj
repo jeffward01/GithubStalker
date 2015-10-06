@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\CommitInformation.cs" />
+    <Compile Include="Classes\GithubClasses.cs" />
     <Compile Include="Classes\UserInformation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
